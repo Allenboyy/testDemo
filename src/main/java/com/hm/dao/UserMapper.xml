@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.heima.dao.UserDao">
+	
+	<!-- <resultMap type="com.heima.pojo.User" id="resultMap">
+        <result property="id" column="id" javaType="int" jdbcType="INTEGER"/>
+        <result property="name" column="name" javaType="string" jdbcType="VARCHAR"/>
+        <result property="age" column="age" javaType="string" jdbcType="VARCHAR"/>
+    </resultMap> -->
+    
+   
+  
+  <insert id="add" parameterType="user">
+     insert into user (name,age) values(#{name},#{age})
+  </insert>
+  
+   <select id="list" resultType="user">
+    select * from user
+  </select>
+</mapper>
