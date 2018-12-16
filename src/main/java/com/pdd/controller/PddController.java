@@ -16,7 +16,7 @@ import java.util.TreeSet;
 import javax.annotation.Resource;
 
 import org.apache.commons.codec.digest.DigestUtils;
-import org.junit.Test;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
@@ -40,7 +40,7 @@ import pinduoduo.com.po.PddTimeResp;
  */
 @RequestMapping("/pingdd")
 @Controller
-public class PddController {
+public class  PddController {
 
 	@Resource
 	PddService pddService;
