@@ -138,6 +138,7 @@ public class  PddController {
 	public void shuangse() {
 		Scanner sc = new Scanner(System.in);
 		int x = sc.nextInt();
+		System.out.println(x);
 		print(x);
 	}
 
