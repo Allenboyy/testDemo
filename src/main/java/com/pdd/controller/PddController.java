@@ -138,7 +138,6 @@ public class  PddController {
 	public void shuangse() {
 		Scanner sc = new Scanner(System.in);
 		int x = sc.nextInt();
-		System.out.println(x);
 		print(x);
 	}
 
@@ -162,11 +161,11 @@ public class  PddController {
 			Collections.sort(list);
 			for (Integer integer : list) {
 				System.out.print(integer + "  ");
-				System.out.println(" ");
 			}
 			int b = ra.nextInt(16) + 1;
 			System.out.println("--" + b);
-			System.out.println("测试分支");
+			System.out.println("测试分支"+"测试分支");
+
 		}
 
 	}
