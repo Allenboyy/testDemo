@@ -164,6 +164,7 @@ public class  PddController {
 			}
 			int b = ra.nextInt(16) + 1;
 			System.out.println("--" + b);
+			System.out.println("wdwdqf+"+"dwdd");
 		}
 
 	}
