@@ -162,9 +162,11 @@ public class  PddController {
 			Collections.sort(list);
 			for (Integer integer : list) {
 				System.out.print(integer + "  ");
+				System.out.println(" ");
 			}
 			int b = ra.nextInt(16) + 1;
 			System.out.println("--" + b);
+			System.out.println();
 		}
 
 	}
